@@ -5,12 +5,13 @@ body {
 
 
  .bg {
-   background: url('images/blurred.jpg') no-repeat center center;
+   background: url('images/blurred1.jpg') no-repeat center center;
    width: 100%;
-   height: 350px; /*same height as jumbotron */
+   height: 400px; /*same height as jumbotron */
    top:0;
    left:0;
    margin-bottom: 60px;
+   padding-top: 50px;
  }
 
 
@@ -58,14 +59,15 @@ body {
   margin-top: 28px;
 }
 
-.navbar-static-top {
-  margin-bottom: 0px;
+.navbar{
+    height: 10px;
+    margin-bottom: 0px;
 }
 
 /* Featurettes
 ------------------------- */
 
-  .featurette-divider {
+.featurette-divider {
     margin: 80px 0; /* Space out the Bootstrap <hr> more */
 }
 .featurette {
