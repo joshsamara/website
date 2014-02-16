@@ -6,88 +6,10 @@
     <!-- Bootstrap -->
     <link href="bootstrap/css/bootstrap.css" rel="stylesheet" media="screen">
     <link rel="shortcut icon" href="images/favicon.jpg">
-    <style type="text/css">
-      body {
-        padding-bottom: 60px;
-       }
-
-      /* Custom container */
-      .container {
-        position: relative;
-        width: auto;
-        margin-left: 5%;
-        margin-right: 5%; 
-        margin: 0 auto;
-        max-width: 80%; 
-      }
-      .container > hr {
-        margin: 60px 0;
-      }
-
-      /* Main marketing message and sign up button */
-      .jumbotron {
-        margin: 80px 0;
-        text-align: center;
-        background-color: transparent;
-      }
-      .jumbotron h1 {
-        font-size: 100px;
-        line-height: 1;
-      }
-      .jumbotron .lead {
-        font-size: 24px;
-        line-height: 1.25;
-      }
-      .jumbotron .btn {
-        font-size: 21px;
-        padding: 14px 24px;
-      }
-
-      /* Supporting marketing content */
-      .marketing {
-        margin: 60px 0;
-      }
-      .marketing p + h4 {
-        margin-top: 28px;
-      }
-
-      .navbar-static-top {
-          margin-bottom: 19px;
-        }
-
-      /* Featurettes
-      ------------------------- */
-
-      .featurette-divider {
-        margin: 80px 0; /* Space out the Bootstrap <hr> more */
-      }
-      .featurette {
-        padding-top: 120px; /* Vertically center images part 1: add padding above and below text. */
-        overflow: hidden; /* Vertically center images part 2: clear their floats. */
-      }
-      .featurette-image {
-        margin-top: -120px; /* Vertically center images part 3: negative margin up the image the same amount of the padding to center it. */
-      }
-
-      /* Give some space on the sides of the floated elements so text doesn't run right into it. */
-      .featurette-image.pull-left {
-        margin-right: 40px;
-      }
-      .featurette-image.pull-right {
-        margin-left: 40px;
-      }
-
-      /* Thin out the marketing headings */
-      .featurette-heading {
-        font-size: 50px;
-        font-weight: 300;
-        line-height: 1;
-        letter-spacing: -1px;
-      }
-
-    </style>
+    <link href="index_styles.css" rel="stylesheet" media="screen">
   </head>
   <body>
+    <!--Navbar-->
     <div class="navbar navbar-default navbar-static-top" role="navigation">
       <div class="container">
         <div class="navbar-header">
@@ -120,47 +42,56 @@
         </div><!--/.nav-collapse -->
       </div>
     </div>
+    <!--/Navbar-->
 
-
-
-    <div class="container">
-      <div class="jumbotron">
-        <h1>Welcome!</h1>
-        <p class="lead">Welcome to the website of Josh Samara. I'm a college student, gamer, programmer, and most definitely not a web designer</p>
+    <!--Top Jumbo-->
+    <div class="bg">
+      <div class="container">
+        <div class="jumbotron">
+          <h1>Welcome!</h1>
+          <p class="lead">Welcome to the website of Josh Samara. I'm a college student, gamer, programmer, and most definitely not a web designer</p>
+        </div>
       </div>
-      <hr class="featurette-divider">
+    </div>
+    <!--/top Jumbo-->
+    <div class="container">
+        
+        <!--Feature1-->
       <div class="featurette">
         <img src="images/prof512.jpg" class="featurette-image img-circle pull-right" alt="profile">
         <h2 class="featurette-heading">This is me <span class="muted">In that circle over there</span></h2>
         <p class="lead">
-          I'm a 21 year old college student in Boston. I'm 
-          currently a junior studying Computer Science scheduled to graduate 
-          in 2015. I'm into video games, card games, programming, Python and Python.
-          Feel free to email me at <a href="mailto:joshsamara@gmail.com">joshsamara@gmail.com</a>.
+        I'm a 21 year old college student in Boston. I'm 
+        currently a junior studying Computer Science scheduled to graduate 
+        in 2015. I'm into video games, card games, programming, Python and Python.
+        Feel free to email me at <a href="mailto:joshsamara@gmail.com">joshsamara@gmail.com</a>.
         </p>
       </div> 
-      <hr class="featurette-divider">
+        <!--/Feature1-->
+        <hr class="featurette-divider">
+        <!--Feature2-->
       <div class="featurette">
         <img src="images/git512.png" class="featurette-image img-circle pull-left" alt="github">
         <h2 class="featurette-heading">My GitHub <span class="muted">Check it out</span></h2>
         <p class="lead">
-          I have a few projects on GitHub that you can checkout <a href="https://github.com/joshsamara">here</a>.
-          There are some terminal based games that I've written that you can download and run. You can see more
-          detailed information about all of them at the <a href="projects.html">projects</a> page as well.
+        I have a few projects on GitHub that you can checkout <a href="https://github.com/joshsamara">here</a>.There are some terminal based games that I've written that you can download and run. You can see more detailed information about all of them at the <a href="projects.html">projects</a> page as well.
         </p>
       </div> 
+        <!--Feature3-->
       <hr class="featurette-divider">
       <div class="featurette">
         <img src="images/twitter512.png" class="featurette-image img-circle pull-right" alt="twitter bootstrap">
         <h2 class="featurette-heading">Credits <span class="muted"> Made with twitter bootsrap</span></h2>
         <p class="lead">
-          This site was made using the examples and resources from twitter bootsrap framework. The bootstrap main page
-          is located at <a href="http://getbootstrap.com/">http://getbootstrap.com/</a>
+        This site was made using the examples and resources from twitter bootsrap framework. The bootstrap main page is located at <a href="http://getbootstrap.com/">http://getbootstrap.com/</a>
         </p>
       </div> 
+        <!--/Feature3-->
+    
+        <!--Footer-->
       <footer>
-        <p class="pull-right"><a href="#">Back to top</a></p>
-        <p>&copy; 2014 Josh Samara &middot; <a href="#">Home</a> &middot; <a href="mailto:joshsamara@gmail.com">Contact Me</a></p>
+      <p class="pull-right"><a href="#">Back to top</a></p>
+      <p>&copy; 2014 Josh Samara &middot; <a href="#">Home</a> &middot; <a href="mailto:joshsamara@gmail.com">Contact Me</a></p>
       </footer>
     </div>
     <script src="http://code.jquery.com/jquery.js"></script>

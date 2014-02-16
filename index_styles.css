@@ -1,0 +1,94 @@
+body {
+  padding-bottom: 60px;
+ }
+
+
+
+ .bg {
+   background: url('images/blurred.jpg') no-repeat center center;
+   width: 100%;
+   height: 350px; /*same height as jumbotron */
+   top:0;
+   left:0;
+   margin-bottom: 60px;
+ }
+
+
+ /* Custom container */
+ .container {
+   position: relative;
+   width: auto;
+   margin-left: 5%;
+   margin-right: 5%; 
+   margin: 0 auto;
+   max-width: 80%; 
+}
+.container > hr {
+  margin: 60px 0;
+}
+
+/* Main marketing message and sign up button */
+.jumbotron {
+  position: absolute;
+  color: white;
+  text-shadow: #444 0 1px 1px;
+  margin: 0;
+  text-align: center;
+  height: 350px;
+  background-color: transparent;
+}
+.jumbotron h1 {
+  font-size: 100px;
+  line-height: 1;
+}
+.jumbotron .lead {
+  font-size: 24px;
+  line-height: 1.25;
+}
+.jumbotron .btn {
+  font-size: 21px;
+  padding: 14px 24px;
+}
+
+/* Supporting marketing content */
+.marketing {
+  margin: 60px 0;
+}
+.marketing p + h4 {
+  margin-top: 28px;
+}
+
+.navbar-static-top {
+  margin-bottom: 0px;
+}
+
+/* Featurettes
+------------------------- */
+
+  .featurette-divider {
+    margin: 80px 0; /* Space out the Bootstrap <hr> more */
+}
+.featurette {
+  padding-top: 120px; /* Vertically center images part 1: add padding above and below text. */
+  overflow: hidden; /* Vertically center images part 2: clear their floats. */
+}
+.featurette-image {
+  margin-top: -120px; /* Vertically center images part 3: negative margin up the image the same amount of the padding to center it. */
+}
+
+/* Give some space on the sides of the floated elements so text doesn't run right into it. */
+.featurette-image.pull-left {
+  margin-right: 40px;
+}
+.featurette-image.pull-right {
+  margin-left: 40px;
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-size: 50px;
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -1px;
+}
+
