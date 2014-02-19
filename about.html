@@ -8,6 +8,7 @@
     <link rel="shortcut icon" href="images/favicon.jpg">
     <link href="index_styles.css" rel="stylesheet" media="screen">
     <style>
+
       .jumbotron{
         margin-top: 60px;
         margin-bottom: 60px;
@@ -18,7 +19,7 @@
         height: 300px;
       }
       .question{
-        font-size: 50px;
+        font-size: 40px;
         font-weight:bold;
       }
       .answer{
@@ -29,6 +30,20 @@
         font-size: 12px;
         color: #ccc;
         font-style: oblique;
+      }
+
+      .lead{
+        margin: 10px; 
+        padding:10px;
+        background-color: #eee;
+        border-radius: 30px;
+        text-align: center;
+      }
+
+      .centered{
+        margin: 0 auto;
+        margin-right: 10px;
+        padding-right:10px;
       }
     </style>
   </head>
@@ -77,7 +92,7 @@
       <hr>
       <!-- Row 1 -->
       <div class="row">
-        <div class="lead col-md-7">
+        <div class="lead col-md-6">
           <p class="question">Who are you?</p>
           <div class="answer">
             <h2>My name is Josh</h2>
@@ -100,36 +115,35 @@
 
       <!-- Row 2 a -->
       <div class="row">
-        <div class="lead col-md-4">
-          <p class="question">What is this?</p>
-          <div class="answer">
-            <h2>This is a website</h2>
-            <p class="sarcasm"> I thought that was pretty clear</p>
+        <div class="centered col-md-12">
+          <div class="lead col-md-3">
+            <p class="question">What is this?</p>
+            <div class="answer">
+              <h2>This is a website</h2>
+              <p class="sarcasm"> I thought that was pretty clear</p>
+            </div>
+
           </div>
 
-        </div>
 
+          <div class="lead col-md-4">
+            <p class="question">Why is this?</p>
+            <div class="answer">
+              <h2>I'm doing this to try to learn more about web design and hopefully build up to something cool.</h2>
+              <p class="sarcasm">That question sounds way more philosophical than it is.</p>
+            </div>
 
-        <div class="lead col-md-4">
-          <p class="question">Why is this?</p>
-          <div class="answer">
-            <h2>I'm doing this to try to learn more about web design and hopefully build up to something cool.</h2>
-            <p class="sarcasm">That question sounds way more philosophical than it is.</p>
           </div>
 
-        </div>
-
-        <div class="lead col-md-4">
-          <p class="question">Where is this?</p>
-          <div class="answer">
-            <h2>It's hosted on my dad's personal webserver and the source is also all on github</h2>
-            <p class="sarcasm">Please don't ddos my dad's stuff</p>
+          <div class="lead col-md-4">
+            <p class="question">Where is this?</p>
+            <div class="answer">
+              <h2>It's hosted on my dad's personal webserver and the source is also all on github</h2>
+              <p class="sarcasm">Please don't ddos my dad's stuff</p>
+            </div>
           </div>
-
         </div>
       </div>
-
-
       <!--Footer-->
       <footer>
       <p class="pull-right"><a href="#">Back to top</a></p>
